@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="f8a90cce-9701-4a07-8b6c-d9ba2672cfb8" created="2.2.0" activeEnvironment="Default environment" name="REST Project" resourceRoot="" updated="2.2.0 20171026-0943" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="true"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value="Project Report"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Run in-process" value="false"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Test Case Tags" value=""/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\Users\smandala1\Desktop\MicroServices"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="true"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="Suite1"/>
+  <con:entry key="Endpoint" value="https://m12test-ionapi.auto.aws.infor.com"/>
+  <con:entry key="Select Report Type" value="JUnit-Style HTML Report"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Run in-process" value="false"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Open Report" value="true"/>
+  <con:entry key="Test Case Tags" value=""/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="TestCase1"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Program Files\SmartBear\ReadyAPI-2.2.0\bin"/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\Program Files (x86)\Jenkins\workspace\TestResults"/>
+  <con:entry key="Ignore Errors" value="true"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="true"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="5886d4d7-9077-4738-8bfa-99ba013e5341" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://mingle-ionapi.inforcloudsuite.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://m12test-ionapi.auto.aws.infor.com</con:endpoint></con:endpoints><con:resource name="Detail 2" path="/{TenantID}/Mingle/SocialService.SVC/User/Detail/" id="c93f4a88-8c7b-416b-b7cc-70c02f3d2abd"><con:settings/><con:parameters><con:parameter><con:name>TenantID</con:name><con:value>TenantID</con:value><con:style>TEMPLATE</con:style><con:default>TenantID</con:default></con:parameter></con:parameters><con:method name="Method 1" id="b3bb7d59-9e76-4d49-83b0-bcea88a66633" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>UserDetailResponse</con:element></con:representation><con:request name="Request 1" id="cc60fb60-3bcc-4b7c-91ea-a9afe263557d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://m12test-ionapi.auto.aws.infor.com</con:endpoint><con:request/><con:originalUri>https://mingle-ionapi.inforcloudsuite.com/M12TEST_TST/Mingle/SocialService.SVC/User/Detail/</con:originalUri><con:credentials><con:selectedAuthProfile>test</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="TenantID" value="M12TEST_TST" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:request></con:method></con:resource></con:interface><con:testSuite id="dc10c44e-4efe-4686-bd90-c3f23a0ac20f" name="Suite1"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="d9f86c7a-43a9-4b18-b3c4-6f8904c70ab7" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase1" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="UserDetail" id="182ac4e3-0c50-4dc2-abf1-beba85d66ba1"><con:settings/><con:config service="https://mingle-ionapi.inforcloudsuite.com" resourcePath="/{TenantID}/Mingle/SocialService.SVC/User/Detail/" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="UserDetail" id="cc60fb60-3bcc-4b7c-91ea-a9afe263557d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://m12test-ionapi.auto.aws.infor.com</con:endpoint><con:request/><con:originalUri>https://mingle-ionapi.inforcloudsuite.com/M12TEST_TST/Mingle/SocialService.SVC/User/Detail/</con:originalUri><con:credentials><con:selectedAuthProfile>test</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="TenantID" value="M12TEST_TST" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:savedRecentRuns>1</con:savedRecentRuns><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer><con:oAuth2Profile><con:name>test</con:name><con:type>OAuth 2.0</con:type><con:authorizationURI>https://m12test-sso.auto.aws.infor.com:443/M12TEST_TST/as/authorization.oauth2</con:authorizationURI><con:accessTokenURI>https://m12test-sso.auto.aws.infor.com:443/M12TEST_TST/as/token.oauth2</con:accessTokenURI><con:redirectURI>https://www.google.com</con:redirectURI><con:accessToken>pWgJuQ5nLCO0zG2y811Y9h1wvozO</con:accessToken><con:accessTokenPosition>HEADER</con:accessTokenPosition><con:accessTokenStartingStatus>RETRIEVED_FROM_SERVER</con:accessTokenStartingStatus><con:accessTokenIssuedTime>1512884586</con:accessTokenIssuedTime><con:manualAccessTokenExpirationTime/><con:manualAccessTokenExpirationTimeUnit>SECONDS</con:manualAccessTokenExpirationTimeUnit><con:clientID>M12TEST_TST~WsVkFej37iGIAH3rW13HOmIrKQ9zydW5kJTJKsCX-Fc</con:clientID><con:clientSecret>JG5yyDZCPLGgNiiFVp9ZqGLvDTzDA_-RilIEKYY9PRkdpc0PM0rKkr3yddq52LWuAjkZwOz1XLaplXq4mufpuA</con:clientSecret><con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow><con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod><con:refreshToken>XHjqxNR7qYpkA2dDdp882lOjUqCsKDAxusSm8T5ZYm</con:refreshToken><con:accessTokenExpirationTime>900</con:accessTokenExpirationTime><con:responseType>id_token</con:responseType></con:oAuth2Profile></con:oAuth2ProfileContainer><con:oAuth1ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:xmlTemplates/><con:parameters/><con:parameters/></con:reporting><con:reporting/><con:authRepository><con:oAuth20AuthEntry><con:name>test</con:name><con:type>OAuth 2.0</con:type><con:authorizationURI>https://m12test-sso.auto.aws.infor.com:443/M12TEST_TST/as/authorization.oauth2</con:authorizationURI><con:accessTokenURI>https://m12test-sso.auto.aws.infor.com:443/M12TEST_TST/as/token.oauth2</con:accessTokenURI><con:redirectURI>https://www.google.com</con:redirectURI><con:accessToken>pWgJuQ5nLCO0zG2y811Y9h1wvozO</con:accessToken><con:accessTokenPosition>HEADER</con:accessTokenPosition><con:accessTokenStartingStatus>RETRIEVED_FROM_SERVER</con:accessTokenStartingStatus><con:accessTokenIssuedTime>1512884586</con:accessTokenIssuedTime><con:manualAccessTokenExpirationTime/><con:manualAccessTokenExpirationTimeUnit>SECONDS</con:manualAccessTokenExpirationTimeUnit><con:clientID>M12TEST_TST~WsVkFej37iGIAH3rW13HOmIrKQ9zydW5kJTJKsCX-Fc</con:clientID><con:clientSecret>JG5yyDZCPLGgNiiFVp9ZqGLvDTzDA_-RilIEKYY9PRkdpc0PM0rKkr3yddq52LWuAjkZwOz1XLaplXq4mufpuA</con:clientSecret><con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow><con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod><con:refreshToken>XHjqxNR7qYpkA2dDdp882lOjUqCsKDAxusSm8T5ZYm</con:refreshToken><con:accessTokenExpirationTime>900</con:accessTokenExpirationTime><con:responseType>id_token</con:responseType></con:oAuth20AuthEntry></con:authRepository><con:tags/></con:soapui-project>
